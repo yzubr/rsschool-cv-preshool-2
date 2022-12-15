@@ -1,1 +1,184 @@
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: darkmagenta;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    padding: 10px;
+    background: linear-gradient(rgba(255, 183, 0), white
+            /*rgba(255, 183, 0, 0.1)*/
+        );
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-list {
+    margin: 0;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 16px;
+    color: darkmagenta;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 20px 50px 20px;
+    /*border-top: thick double darkmagenta;*/
+    border-bottom: thick double darkmagenta;
+}
+
+.main-section-photo {
+    border-radius: 150px;
+    border: 5px solid rgb(255, 183, 0);
+    box-shadow: 0 0 7px rgb(113, 106, 82);
+}
+
+.main-title {
+    padding: 50px 50px 50px 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.section {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    border-bottom: dotted 0.5px  darkmagenta;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-list {
+    margin-left: -25px;
+}
+
+#education p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+span {
+    color: rgb(255, 183, 0);
+}
+
+a {
+    text-decoration: none
+}
+
+.section-list a {
+    color: rgb(255, 183, 0);
+}
+
+.paragraph-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(255, 183, 0);
+}
+
+.code {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    
+    padding: 20px 0;
+    background: linear-gradient(white, rgb(255, 183, 0));
+}
+
+.footer-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.github img {
+    width: 31px;
+    height: 31px;
+}
+
+.link-rs {
+    width: 33%;
+    height: 33%;
+}
+
+.footer a {
+    font-size: 20px;
+    text-align: center;
+    color: #8b008b;
+    
+}
+
+.footer span {
+    font-size: 20px;
+    
+    color: darkmagenta
+
+}
